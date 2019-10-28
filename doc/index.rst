@@ -8,6 +8,12 @@ for most use cases without impacting usage that require manual configuration.
   While the current design does not consider IPv6 support, contributions
   are appreciated.
 
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+
+    CHANGELOG
+
 Usage
 -----
 
@@ -74,9 +80,3 @@ Manual Networking
 `````````````````
 If the IP address is static the ``ROS_IP``, ``ROS_HOSTNAME``, and
 ``ROS_MASTER_URI`` can be configured manually and the env-hook is a no-op.
-
-Index
------
-
-* :ref:`genindex`
-* :ref:`search`
