@@ -80,3 +80,13 @@ Manual Networking
 `````````````````
 If the IP address is static the ``ROS_IP``, ``ROS_HOSTNAME``, and
 ``ROS_MASTER_URI`` can be configured manually and the env-hook is a no-op.
+
+Source Install
+--------------
+
+Installing from source may require something like
+
+.. code-block:: bash
+
+    ROS_INTERFACE=wlp3s0
+    source $ROS_WORKSPACE/devel/setup.bash
